@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package comparacaostring;
+
+/**
+ *
+ * @author gladistone
+ */
+public class ComparacaoString {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        String n1 = "gustavo";
+        String n2 = "gustavo";
+        String n3 = new String ("gustavo");
+        String res = (n1==n2)?"igual":"diferente";
+        System.out.println("res");
+    }
+    
+}
